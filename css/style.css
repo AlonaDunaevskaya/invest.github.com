@@ -1,0 +1,290 @@
+*{
+	padding:0;
+	margin:0;
+	list-style-type: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+}
+
+header{
+  	background-image: url("../images/bg-image.jpg");
+  	background-repeat: no-repeat;
+ 	-webkit-background-size: 100%  100%;
+ 		background-size: 100% 100%;	
+ 		height: 750px;
+}
+header .top{
+	background-color: rgba(255, 255, 255, 0.7) ;
+  	box-shadow: 0px 1px 1px 0px rgba(1, 1, 1, 0.2),inset 0px -1px 0px 0px rgba(255, 255, 255, 0.3);
+}
+
+.logo h2{
+	font-size:26px;
+	font-weight: 100;
+	font-style: italic;
+}
+
+.logo h2 span{
+	display: block;
+	font-weight: 700;
+	margin-left: 44px;
+	font-size: 26px;	
+}
+
+.logo h2:before{
+	content:"";
+	display: inline-block;
+	background-image: url(../images/icon.png);
+	height: 44px;
+	width: 44px;
+
+}
+
+.head{
+	color: #e74c3c;
+	font-size: 16px;
+	margin-top: 40px;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+.head a{
+	display: block;
+	margin-left: 38px;
+	font-size:11px;
+	color: white;
+	text-transform: uppercase;
+}
+
+.chat:before, .forum:before{
+	content:"";
+	background-image: url(../images/chat.png);
+	display: inline-block;
+	height: 27px;
+	width: 33px;
+}
+
+.forum:before{
+	background-image: url(../images/forum.png);
+}
+
+.twitter, .faceb, .google{
+	background-image: url(../images/twitter.png);
+	height: 32px;
+	width: 32px;	
+	margin-right: 10px;
+	margin-top: 20px;
+	float: left;
+}
+
+.faceb{
+	background-image: url(../images/faceb.png);	
+}
+
+.google{
+	background-image: url(../images/google.png);
+} 
+
+nav{
+	background-color: #f7f7f7;
+	width: 100%;
+	height: 50px;
+	margin-top:-10px;
+} 
+
+nav li{
+	float: left;
+	margin-left: 60px;
+	margin-top: 10px;
+
+}
+
+nav li a{
+	display: block;
+	padding:5px 10px;
+	color: #5e8dc3;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.text-container{
+	text-align: center;
+	margin:auto;
+	margin-top: 10%;
+}
+
+.title{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 46px;
+}
+
+.button a{
+	display: inline-block;
+	margin:30px;
+	background-color: #5e8dc3;
+	box-shadow: 0 1px 2px rgba(71, 106, 146, 1);
+	border-radius: 30px;
+	color: #fff;
+	padding: 8px 20px;
+
+}
+.blue{
+	background: #eff3f7;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.block1{
+	text-align: center;
+	padding: 20px;
+}
+
+.block1 .icon{
+	top:0;
+	position: relative;
+	min-height: 46px;
+	text-align: center;	
+}
+
+.block1 h3{
+	font-size: 20px;
+	color: #5e8dc3;
+	margin-bottom: 20px;
+}
+
+.map{
+	background-image: url(../images/world.png);
+	height: 244px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.green a{
+	color: #03ded4;
+	background-color: #fff;
+	border: 2px solid #03ded4;
+	box-shadow: none;
+	text-transform: capitalize;
+}
+
+.center{
+	text-align: center;
+	padding-top: 4%;
+}
+
+.border{
+	border-bottom: 1px solid #7bdbed;
+	width: 15%;
+	padding: 10px;
+}
+
+.right{
+	float: right;
+}
+
+.flight{
+	background-image:url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	min-height: 595px;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	margin: 20px 0 0;
+}
+
+.text-container	h3{
+	font-size: 46px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.text-container img{
+	display: inline-block;
+	margin: 20px;
+}
+
+.big{
+	font-size: 36px;
+}
+
+.graph{
+	background-image: url(../images/graph.png);
+	height: 500px;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+
+.blue2{
+	background: #e0eef7;
+	padding-bottom: 50px;
+}
+
+.graph .block{
+	background: rgba(255, 255, 255, 0.4);
+	margin: 0 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px 0 40px;
+	position: relative;
+	margin-top: 30px;
+	line-height: 2.2em;
+}
+
+.graph .center{
+	padding: 0;	
+}
+
+.graph .button{
+	position: absolute;
+	left: 25%;
+	bottom: -15%;
+}
+
+.graph h4{
+	font-size: 36px;
+	color: #5e8dc3; 
+}
+
+.graph .red{
+	color: #e74c3c;
+	font-size: 36px;
+}
+
+.graph span{
+	display: block;
+	font-weight: bold;
+	font-size: 36px;
+}
+
+.data{
+	float: left;
+	padding-right: 20px;
+	color: #bcbcbc;
+	line-height: 50px;
+}
+
+.data span{
+	display: block;
+	font-size: 36px;
+	text-align: center;
+	color: #00d47f;
+}
+
+.text a{
+	padding-top: 10px;
+	display: block;
+	color: #00d47f;
+}
+
+.news{
+	padding-bottom: 50px;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+.review{
+	padding-top: 50px;
+}
